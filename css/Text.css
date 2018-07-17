@@ -1,0 +1,110 @@
+.Text {
+	text-align: center;
+}
+
+.Text-main {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.Text-subsidiary {
+	font-size:16px;
+	margin-top:10px;
+	padding-bottom: 80px;
+	color: #777;
+}
+
+.Text-servicesMain {
+	margin: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Text-ServicesSubsidary {
+	font-size:14px;
+	color: #777;
+}
+
+.Text-img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	left: 10px;
+	bottom: 10px;
+}
+
+.Text-inImg {
+	color: #dcd4d4;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	opacity: 0;
+}
+
+.Text-inImg--main {
+	font-size: 32px;
+}
+
+.Text-inImg--sub {
+	position: absolute;
+	top: 150px;
+	font-size: 12px;
+	border-left: 4px solid red;
+	padding: 0 15px;
+}
+
+.Text-img::before,
+.Text-img::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+}
+
+.Text-img::before {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	transform: scale(0,1);
+}
+
+.Text-img::after {
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+	transform: scale(1,0);
+}
+
+.Portfolio-content--card:hover .Text-img::before,
+.Portfolio-content--card:hover .Text-img::after {
+	transform: scale(1,1);
+}
+
+.Portfolio-content--card:hover .Text-inImg {
+	opacity: 1;
+}
+
+.Text-aboutUserLeft {
+	text-align: right;
+}
+
+.Text-aboutUserRight {
+	text-align: left;
+}
+.Text-aboutUser--mainUpper {
+	font-size:18px;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+.Text-aboutUser--main {
+	text-transform: capitalize;
+}
+
+.Text-aboutUser--sub {
+	color: #777;
+	line-height: 1.5em;
+}

@@ -1,0 +1,35 @@
+
+.Portfolio {
+	background: #f7f7f7;
+}
+
+.Portfolio-main {
+	padding:120px 0;
+}
+
+.Portfolio-content--card {
+	margin-right:33px;
+	display: block;
+	float: left;
+}
+
+.Img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: #000;
+}
+
+.Img-main {
+	transition: .5s;
+}
+.Portfolio-content--card:last-child{
+	float: right;
+	margin-right:0;
+}
+
+.Portfolio-content--card:hover .Img-main {
+	transform: scale(1.3);
+	opacity: 0.5;
+	filter: blur(1px);
+}

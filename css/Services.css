@@ -1,0 +1,28 @@
+.Services {
+    font-family: Arial, sans-serif;  
+	font-size: 14px;
+    color: #777;
+}
+
+.Services-main {
+	padding:120px 0;
+	color: #222;
+}
+
+.Services-works {
+	line-height: 1.5em;
+}
+
+.Services-works--card {
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.Services-works--card:last-child {
+	float: right;
+}
+
+.Services-works--card:nth-child(2) {
+	margin-left: 60px;
+}

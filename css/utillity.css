@@ -1,0 +1,39 @@
+.u-heightFull {
+    height: 100vh;
+}
+
+.u-width940 {
+	width: 940px;
+}
+
+.u-width240 {
+	width: 240px;
+}
+
+.u-width275 {
+	width: 275px;
+}
+
+.u-center {
+	margin:0 auto;
+}
+
+.u-clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.u-sizeImg {
+	width: 290px;
+	height: 290px;
+}
+
+.u-sizeImg180 {
+	width: 180px;
+	height: 180px;
+}
+
+.u-width290 {
+	width: 290px;
+}

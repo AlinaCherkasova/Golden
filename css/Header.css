@@ -1,0 +1,83 @@
+.Header {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+}
+
+.Header-container {
+	
+}
+
+.Header-topbar {
+	padding-top: 44px;
+	padding-bottom: 205px;
+}
+
+.Header-logo {
+	float: left;
+}
+
+.Header-mainMenu {
+    float: right;
+}
+
+.Header-nav {
+    display: block;
+}
+
+.Header-nav .Header-menu {
+    display: block;
+    float: left;
+    margin-right: 40px;
+}
+
+.Header-link {
+    font-size: 16px;
+    line-height: 2;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Header-link:after {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 2px;
+    content: '';
+    transition: width .3s ease-in-out;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
+
+.Header-link:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Header-link:hover:after,
+.Header-link:focus:after {
+    width: 100%;
+}
+
+.Header-title {
+	text-transform: uppercase;
+	text-align: center;
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+.Header-title--first {
+	font-size: 35px;
+}
+
+.Header-title--second {
+	padding: 15px;
+	font-size: 74px;
+	font-weight: bold;
+}

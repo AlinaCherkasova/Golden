@@ -1,0 +1,45 @@
+
+.About {
+
+}
+
+.AboutUsers {
+    display: flex;
+    flex-direction: column;
+}
+
+.About-main {
+    padding:120px 0;
+}
+
+.AboutUserTextLeft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 45px;
+    padding-bottom: 90px;
+}
+
+.AboutUserImg-left {
+    padding-left: 40px;
+}
+
+.AboutUserTextRight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 45px;
+    padding-bottom: 90px;
+}
+
+.AboutUserImg-right {
+    padding-right: 40px;
+}
+
+.AboutUserTextRight:last-child {
+    padding-bottom: 0;
+}
