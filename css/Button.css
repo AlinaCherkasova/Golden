@@ -8,16 +8,7 @@
     border: 0;
     border-radius: 3px;
     background: #fed136;
-}
-
-
-.Button-link {
-    text-decoration: none;
-	color: #484543;
-}
-
-.Button-link:hover {
-    text-decoration: none;
-    text-transform: uppercase;
     color: #484543;
+    outline: none;
+    cursor: pointer;
 }
